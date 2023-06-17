@@ -1,0 +1,147 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-top-margin {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-pics {
+  flex: 0 0 auto;
+  width: 90vw;
+  height: 30vh;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  flex-direction: row;
+  padding-bottom: 2vh;
+  justify-content: center;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  background-size: contain;
+  justify-content: center;
+  background-image: url("public/shield-1500h.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  background-size: contain;
+  justify-content: center;
+  background-image: url("public/sentryone%20inverted-1500h.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.home-texts {
+  flex: 0 0 auto;
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-text1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  color: rgb(34, 37, 41);
+  text-align: center;
+  font-family: Roboto;
+}
+.home-text2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text1 {
+  color: rgb(34, 37, 41);
+  font-size: 1.3em;
+  text-align: center;
+  font-family: Roboto;
+}
+.home-text3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home-text6 {
+  color: rgb(34, 37, 41);
+  text-align: center;
+  font-family: Roboto;
+}
+.home-link {
+  color: #66b574;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.home-btm-margin {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 414px) {
+  .home-pics {
+    flex-direction: column;
+  }
+  .home-container1 {
+    width: 100%;
+    height: 10vh;
+    margin-right: 0;
+    background-position: center;
+  }
+  .home-container2 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .home-container3 {
+    width: 100%;
+    height: 10vh;
+    background-position: center;
+  }
+}
